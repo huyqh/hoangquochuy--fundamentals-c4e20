@@ -4,9 +4,9 @@ speed(-1)
 colors = ["red", "blue", "brown", "yellow", "grey"]
 n = 0
 
-for rect in range(5):
+for i in range(5):
     count = 4
-    color(colors[i])
+    color(i)
     begin_fill()
     while count > 0:
         count -= 1

@@ -34,13 +34,8 @@ for i in range(1,n+1):
     print("one month has passed, now here is my flock:",list)
     print("now my biggest sheep has size {} let's shear it".format(max(list)))
 
-    a = 0
-    for i in range(len(list)):
-        if list[i] > a:
-            a = list[i]
-            maxIndex = i
     
-    list[maxIndex] = 8
+    
     print("After shearing, here is my flock",list)
     print()
 print("*"*100)
